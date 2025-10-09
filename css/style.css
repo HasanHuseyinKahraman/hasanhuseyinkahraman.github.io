@@ -1,13 +1,20 @@
+:root{
+    --navigationTextColor: black;
+    --textColor: rgba(255,0,0);
+
+}
+
 @font-face {
     font-family: 'Bebas Neue';
     font-weight: 400;
     src: url("../font/BebasNeue-Regular.ttf");
 }
+
 a {
-    color:rgb(0, 0, 0);
+    color: var(--color1);
     text-decoration: none;
-    font-family: 'Bebas Neue';
 }
+
 a:visited{
     color:rgb(0, 0, 0);
     text-decoration: none;
@@ -16,16 +23,28 @@ a:visited{
 }
 
 a:hover{
-    color:blue;
+    color:rgb(0, 0, 255);
     text-decoration: none;
 
 
 }
 
 .navbar{
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     font-family: 'Bebas Neue';
     font-size: 50px;
+    background-color: gray;
+}
+
+.navbar a:hover{
+    color: rgb(255, 255, 255)
+
+}
+
+body{
+    padding-top: 100px;
 }
 
