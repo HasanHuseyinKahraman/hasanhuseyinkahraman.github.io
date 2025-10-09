@@ -30,6 +30,8 @@ a:hover{
 }
 
 .navbar{
+    display: flex;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -37,6 +39,7 @@ a:hover{
     font-family: 'Bebas Neue';
     font-size: 50px;
     background-color: gray;
+    gap: 20px;
 }
 
 .navbar a:hover{
@@ -45,6 +48,24 @@ a:hover{
 }
 
 body{
-    padding-top: 100px;
+    padding-top: 53px;
 }
 
+.projectselectButtons a button{
+    font-family: 'Bebas Neue';
+    font-size: large;
+    border-radius: 10px;
+    
+}
+.projectselectButtons a button:hover{
+    color: blue;
+    background-color: white;
+
+
+}
+
+.projectsList{
+    list-style-type: none;
+    padding-left: 0;
+
+}
