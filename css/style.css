@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    src: url("../font/BebasNeue-Regular.ttf");
+}
+a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+}
+a:visited{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+
+
+}
+
+a:hover{
+    color:blue;
+    text-decoration: none;
+
+
+}
+
+
+
+
 .navbar{
     position: sticky;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
 }
+
