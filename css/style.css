@@ -1,6 +1,6 @@
 :root{
     --navigationTextColor: black;
-    --textColor: rgb(184, 89, 89);
+    --textColor: rgb(0, 0, 0);
 
 }
 
@@ -55,12 +55,11 @@ body{
     font-family: 'Bebas Neue';
     font-size: large;
     border-radius: 10px;
+    width: 25%;
+    height: 5%;
     
 }
 .projectselectButtons a button:hover{
-    color: blue;
-    background-color: white;
-
 
 }
 
