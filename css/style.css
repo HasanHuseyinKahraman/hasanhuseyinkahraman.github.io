@@ -48,23 +48,18 @@ a:hover{
 }
 
 body{
-    padding-top: 53px;
+    padding-top: 52px;
 }
 
 .projectselectButtons a button{
     font-family: 'Bebas Neue';
     font-size: large;
     border-radius: 10px;
-    width: 25%;
-    height: 5%;
+    width: 547px;
+    height: 25px;
     
 }
 .projectselectButtons a button:hover{
 
 }
 
-.projectsList{
-    list-style-type: none;
-    padding-left: 0;
-
-}
