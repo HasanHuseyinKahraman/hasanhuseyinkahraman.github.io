@@ -83,21 +83,4 @@ body{
 
 }
 
-@media(max-width=768px){
-    .navbar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    
-    font-family: 'Bebas Neue';
-    font-size: 12px;
-    
-    background-color: gray;
-}
-
-
-
-}
-
 
