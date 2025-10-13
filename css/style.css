@@ -4,12 +4,12 @@
     position: fixed;
     
     font-family: 'Bebas Neue';
-    font-size: 12px;
+    font-size: 30px;
     background-color: red;
-    
+    gap: 10px;
 }
     main{
-        padding-top: 240px;
+        padding-top: 250px;
 }
 }
 
@@ -69,12 +69,12 @@ body{
 }
 
 .projectselectButtons a button{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5px;
     font-family: 'Bebas Neue';
     font-size: large;
-    border-radius: 10px;
-    width: 547px;
-    height: 25px;
-    
 }
 
 #main-001{
