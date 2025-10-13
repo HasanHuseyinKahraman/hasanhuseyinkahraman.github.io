@@ -9,11 +9,13 @@
     gap: 10px;
 }
     main{
-        padding-top: 250px;
+        padding-top: 240px;
 }
 }
 
-
+main{
+width: 100%;
+}
 
 :root{
     --navigationTextColor: black;
@@ -65,7 +67,7 @@ a:hover{
 }
 
 body{
-    padding-top: 52px;
+    padding-top: 54px;
 }
 
 .projectselectButtons a button{
